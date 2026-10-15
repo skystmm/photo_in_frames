@@ -1,0 +1,10 @@
+output/
+.playwright-cli/
+docs/
+tests/
+AGENTS.md
+CONTEXT.md
+README.md
+dist/
+node_modules/
+.DS_Store

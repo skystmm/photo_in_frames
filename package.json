@@ -1,0 +1,12 @@
+{
+  "name": "hangzhou-photo-map",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check src/app.js && node --check src/i18n.js && node --check src/en-ui.js && node --check src/en-content.js && node --check src/catalog.js && node --check src/data.js && node --check src/spot-photos.js && node --check scripts/serve.mjs && node --check scripts/build.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}
